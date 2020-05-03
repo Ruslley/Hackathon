@@ -14,6 +14,7 @@ class ComponentsNavbar extends React.Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
+            <Nav.Link href="/trilhas">Trilhas</Nav.Link>
             <Nav.Link href="/parceiros">Parceiros</Nav.Link>
             <Nav.Link href="/cursos">Cursos</Nav.Link>
           </Nav>

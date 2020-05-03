@@ -7,7 +7,7 @@ import HeaderCards from '../../components/PageHeader/index';
 
 import { useHistory } from 'react-router-dom';
 
-export default function cursosPage() {
+export default function trilhaspage() {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const history = useHistory();
@@ -15,10 +15,10 @@ export default function cursosPage() {
     return(
         <>
         <div className="home-header">
-            <h1> Cursos  </h1>
+            <h1> Trilhas  </h1>
         </div>
         <div className="container">
-            <HeaderCards />
+            
         </div>
        </>
     );

@@ -7,7 +7,7 @@ import './styles.css';
 
 import { useHistory } from 'react-router-dom';
 
-export default function homepage() {
+export default function parceirospage() {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const history = useHistory();

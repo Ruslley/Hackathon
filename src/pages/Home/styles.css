@@ -1,14 +1,29 @@
 .container {
-    
-    justify-content: left;
-
-   /* background-image: url('../../assets/background.jpg');*/
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.button-content {
-    width: 120px;
-    height: 120px;
-    background: #e02041;
+h1 {
+    color: #696969;
+}
+
+.appName {
+    color: #0049AF;
+    font-size: 68px;
+}
+
+.imgLogo {
+    margin-top: 8%;
+    width: 320px;
+    height: 320px;
+}
+
+.button-start {
+ 
+    background: #007bff;;
     border: 0;
     border-radius: 8px;
     color: #fff;
@@ -23,7 +38,7 @@
     flex-direction: column;
 }
 
-.button-content:hover {
+.button-start:hover {
     filter: brightness(90%);
     
 }
@@ -32,11 +47,19 @@
     flex-direction: row;
 }
 
+.btn_area {
+    
+    justify-content: right;
+    align-items: right;
+    align-self: right;
+}
+
+.back-link {
+    color: #377A2B;
+}
+
 .home-header {
-    margin-top: 5%;
+    margin-top: 10%;
     
 }
 
-.CardGroup {
-    margin-top: 0 auto;
-}

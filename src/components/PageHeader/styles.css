@@ -1,0 +1,10 @@
+.cardArea {
+    align-self: center;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+
+.cardHome {
+    width: '18rem';
+    max-width: 400px;
+}
