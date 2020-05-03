@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 
 // Imports components
-//import HeaderCards from '../../components/PageHeader/index';
+import HeaderCards from '../../components/CardsParceiros/index';
 
 import { useHistory } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ export default function parceirospage() {
             <h1> Parceiros </h1>
         </div>
         <div className="container">
-           
+           <HeaderCards />
         </div>
        </>
     );

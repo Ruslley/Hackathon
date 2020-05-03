@@ -1,5 +1,5 @@
 .container {
-    margin-top: 8%;
+    margin-top: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,6 +8,7 @@
 
 h1 {
     color: #696969;
+    
 }
 
 .appName {
@@ -16,7 +17,7 @@ h1 {
 }
 
 .imgLogo {
-    margin-top: 8%;
+    margin-top: 5rem;
     width: 320px;
     height: 320px;
 }
@@ -39,7 +40,8 @@ h1 {
 }
 
 .button-start:hover {
-    filter: brightness(90%);
+    filter: brightness(80%);
+    font-size:x-large;
     
 }
 
@@ -59,7 +61,7 @@ h1 {
 }
 
 .home-header {
-    margin-top: 10%;
+    margin-top: 2rem;
     
 }
 

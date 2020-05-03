@@ -4,6 +4,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// import Card from  './components/CardsParceiros/cardUi'
+
+
+// ReactDOM.render( <Card/>,
+//     document.getElementById('root')
+// );
+
+
 
 ReactDOM.render(
   <React.StrictMode>

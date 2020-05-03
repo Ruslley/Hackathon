@@ -6,7 +6,7 @@ import HeaderCards from '../../components/PageHeader/index';
 import { Link, useHistory } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
-import logoImg from '../../assets/images/logo_vetor.png';
+import logoImg from '../../assets/logo_vetor.png';
 
 export default function homepage() {
 
